@@ -1,7 +1,9 @@
 import os
 import json
+import tkinter as tk
 from tkinter import messagebox
 from model import ScenarioModel
+from view import ScenarioView
 
 class ScenarioController:
     def __init__(self, model, save_directory="scenarios"):
@@ -35,3 +37,14 @@ class ScenarioController:
             messagebox.showinfo("Success", f"Scenario '{scenario_name}' saved successfully!")
         else:
             messagebox.showerror("Error", "Invalid scenario data.")
+
+class MenuController:
+    def __init__(self, parent):
+        self.parent = parent
+
+    def open_scenario_view(self):
+        scenario_view = ScenarioView(self.parent, self.parent.scenario_controller)
+        scenario_view.pack(fill=tk.BOTH, expand=True)
+
+    def quit_program(self):
+        self.parent.quit()

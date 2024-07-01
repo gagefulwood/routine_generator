@@ -37,9 +37,25 @@ def create_button(parent, text, row, col, sticky='w'):
     return button    
 
 class MenuView(ttk.Frame):
-    def __init__(self, parent, controller, title="Scenarios"):
-        super().__init__()
-        pass
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        self.controller = controller
+
+        # Create widgets
+        self.title_label = ttk.Label(self, text="Menu", font=("Helvetica", 18))
+        self.title_label.pack(pady=10)
+
+        self.scenario_button = ttk.Button(self, text="Manage Scenarios", command=self.open_scenario_view)
+        self.scenario_button.pack(pady=5)
+
+        self.quit_button = ttk.Button(self, text="Quit", command=self.quit_program)
+        self.quit_button.pack(pady=5)
+
+    def open_scenario_view(self):
+        self.controller.open_scenario_view()
+
+    def quit_program(self):
+        self.controller.quit_program()
 
 class ScenarioView(ttk.LabelFrame):
     def __init__(self, parent, controller, title="Scenarios"):
