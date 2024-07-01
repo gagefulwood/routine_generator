@@ -36,16 +36,25 @@ class ScenarioModel:
         self.is_flick = is_flick
 
     def validate(self):
-        if self.aim_type in AimTypeTag.__members__.values():
+        if self.aim_type in AimTypeTag._value2member_map_:
             if self.aim_type == AimTypeTag.TRACKING.value:
-                return self.aim_subtype in self.aim_subtype_mapping.get(AimTypeTag.TRACKING.value, []) and not self.is_flick
+                is_valid = self.aim_subtype in self.aim_subtype_mapping[AimTypeTag.TRACKING.value] and not self.is_flick
             elif self.aim_type == AimTypeTag.CLICKING.value:
-                return self.aim_subtype in self.aim_subtype_mapping.get(AimTypeTag.CLICKING.value, [])
+                is_valid = self.aim_subtype in self.aim_subtype_mapping[AimTypeTag.CLICKING.value]
             elif self.aim_type == AimTypeTag.TARGET_SWITCHING.value:
-                return self.aim_subtype in self.aim_subtype_mapping.get(AimTypeTag.TARGET_SWITCHING.value, []) and not self.is_flick
+                is_valid = self.aim_subtype in self.aim_subtype_mapping[AimTypeTag.TARGET_SWITCHING.value] and not self.is_flick
             else:
-                return True #later make this handle the other condition
-        return False
+                is_valid = True
+        else:
+            is_valid = False
+
+        print(f"Validation result: {is_valid}")
+        print(f"Aim Type: {self.aim_type}")
+        print(f"Aim SubType: {self.aim_subtype}")
+        print(f"Is Projectile: {self.is_projectile}")
+        print(f"Is Movement: {self.is_movement}")
+        print(f"Is Flick: {self.is_flick}")
+        return is_valid
     
     def to_dict(self):
         return {

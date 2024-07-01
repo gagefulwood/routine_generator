@@ -13,7 +13,6 @@ class MainApp(tk.Tk):
 
         model = ScenarioModel()
         controller = ScenarioController(model)
-        
         self.scenario_view = ScenarioView(self, controller)
         self.scenario_view.grid(row=0, column=0, sticky='w')
 

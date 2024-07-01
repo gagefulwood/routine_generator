@@ -1,0 +1,8 @@
+{
+    "Name": "test",
+    "AimTypeTag": "Tracking",
+    "AimSubTypeTag": "Smoothness",
+    "AimTypeProjectile": true,
+    "AimTypePlayerMovement": false,
+    "AimTypeFlick": false
+}
