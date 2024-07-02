@@ -92,3 +92,8 @@ class ScenarioModel:
 
     def get_aim_subtypes(self, aim_type):
         return self.aim_subtype_mapping.get(aim_type, [])
+    
+
+class PlaylistModel:
+    def __init__(self, name):
+        self.name = name

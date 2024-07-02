@@ -17,7 +17,10 @@ class MenuView(ttk.Frame):
         self.title_label = ttk.Label(self, text="Menu", font=("Helvetica", 18))
         self.title_label.pack(pady=10)
 
-        self.scenario_button = ttk.Button(self, text="Manage Scenarios", command=self.open_scenario_view)
+        self.scenario_button = ttk.Button(self, text="Playlists", command=self.open_playlist_view)
+        self.scenario_button.pack(pady=5)
+
+        self.scenario_button = ttk.Button(self, text="Scenarios", command=self.open_scenario_view)
         self.scenario_button.pack(pady=5)
 
         self.quit_button = ttk.Button(self, text="Quit", command=self.quit_program)
@@ -26,8 +29,24 @@ class MenuView(ttk.Frame):
     def open_scenario_view(self):
         self.controller.open_scenario_view()
 
+    def open_playlist_view(self):
+        self.controller.open_playlist_view()
+
     def quit_program(self):
         self.controller.quit_program()
+
+class PlaylistView(tk.Toplevel):
+    def __init__(self, parent, controller, title="Playlists"):
+        super().__init__(parent)
+        self.title(title)
+        self.controller = controller
+        self.model = controller.model
+        self.create_widgets()
+
+    def create_widgets(self):
+        pass
+
+
 
 class ScenarioView(tk.Toplevel):
     def __init__(self, parent, controller, title="Scenarios"):

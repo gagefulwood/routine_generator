@@ -1,15 +1,18 @@
 import tkinter as tk
 from tkinter import ttk
 from view import ScenarioView, MenuView
-from model import ScenarioModel
-from controller import ScenarioController, MenuController
+from model import PlaylistModel, ScenarioModel
+from controller import PlaylistController, ScenarioController, MenuController
 
 class MainApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Playlist Maker")
-        self.geometry("600x400")
-        self.minsize(600,400)
+        self.geometry("400x300")
+        self.minsize(400,300)
+
+        self.playlist_model = PlaylistModel()
+        self.playlist_controller = PlaylistController(self.playlist_model)
 
         self.scenario_model = ScenarioModel()
         self.scenario_controller = ScenarioController(self.scenario_model)
