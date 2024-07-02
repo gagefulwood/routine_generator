@@ -9,6 +9,7 @@ class ScenarioController:
     def __init__(self, model, save_directory="scenarios"):
         self.model = model
         self.save_directory = save_directory
+        self.scenario_view = None
         os.makedirs(self.save_directory, exist_ok=True)
 
     def save_scenario(self, event, create_view):
@@ -37,6 +38,17 @@ class ScenarioController:
             messagebox.showinfo("Success", f"Scenario '{scenario_name}' saved successfully!")
         else:
             messagebox.showerror("Error", "Invalid scenario data.")
+
+    def open_scenario_view(self, parent):
+        if self.scenario_view is None or not self.scenario_view.winfo_exists():
+            self.scenario_view = ScenarioView(parent, self)
+        else:
+            self.scenario_view.lift()
+
+    def close_scenario_view(self):
+        if self.scenario_view is not None:
+            self.scenario_view.destroy()
+            self.scenario_view = None
 
 class MenuController:
     def __init__(self, parent):
