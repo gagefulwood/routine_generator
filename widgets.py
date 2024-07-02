@@ -29,3 +29,8 @@ def create_button(parent, text, row, col, sticky='w'):
     button = ttk.Button(parent, text=text, style="Custom.TButton")
     button.grid(row=row, column=col, sticky=sticky)
     return button    
+
+def create_scale(parent, row, col):
+    scale = ttk.Scale(parent, from_=0, to=100, orient=tk.HORIZONTAL)
+    scale.grid(row=row, column=col)   
+    return scale 
