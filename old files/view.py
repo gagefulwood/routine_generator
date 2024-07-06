@@ -44,15 +44,17 @@ class PlaylistView(tk.Toplevel):
         self.create_widgets()
 
     def create_widgets(self):
-        self.name_label = create_label(self,"Name",0,0)
+        self.name_label = create_label(self, "Name", 0, 0)
+        self.name_entry, self.name_var = create_entry(self,0,1)
 
-        self.tracking_label = create_label(self,"Tracking",1,0)
-        self.tracking_scale = create_scale(self,1,1)
-        self.tracking_btn = create_button(self,"#",1,2)
+        self.tracking_label = create_label(self, "Tracking", 1, 0)
+        self.tracking_entry, self.tracking_var = create_entry(self, 1, 1)
 
-        self.clicking_label = create_label(self,"Clicking",2,0)
+        self.clicking_label = create_label(self, "Clicking", 2, 0)
+        self.clicking_entry, self.clicking_var = create_entry(self, 2, 1)
 
-        self.switching_label = create_label(self,"Switching",3,0)
+        self.switching_label = create_label(self, "Switching", 3, 0)
+        self.switching_entry, self.switching_var = create_entry(self, 3, 1)
 
 
 

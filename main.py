@@ -1,30 +1,25 @@
 import tkinter as tk
-from tkinter import ttk
-from view import ScenarioView, MenuView
-from model import PlaylistModel, ScenarioModel
-from controller import PlaylistController, ScenarioController, MenuController
+from controllers.menu import MenuController
+
+'''
+create model instance
+create controller instance
+'''
 
 class MainApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Playlist Maker")
+        self.title("TBD") #TBD title
         self.geometry("400x300")
         self.minsize(400,300)
 
-        self.playlist_model = PlaylistModel()
-        self.playlist_controller = PlaylistController(self.playlist_model)
+        #init models
 
-        self.scenario_model = ScenarioModel()
-        self.scenario_controller = ScenarioController(self.scenario_model)
+        #init views
 
+        #init controllers
         self.menu_controller = MenuController(self)
-        self.menu_view = MenuView(self, self.menu_controller)
-        self.menu_view.pack(fill=tk.BOTH, expand=True)
-    
-        
 
-        
-        
 if __name__ == "__main__":
     app = MainApp()
     app.mainloop()
