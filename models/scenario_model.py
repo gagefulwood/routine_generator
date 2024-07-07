@@ -52,3 +52,17 @@ class ScenarioModel:
             raise ValueError(f"Invalid aim_subtype combination for {aim_type.name}")
         if is_flick and aim_type != AimType.CLICKING:
             is_flick = False
+
+    def create_scenario(self): # inserts scenario into the database
+        pass
+
+    def update_scenario(self): # update an existing scenario in the database
+        pass
+
+    @classmethod
+    def read_scenario(cls, scenario_id): # retrieves a scenario from the database
+        pass
+
+    @classmethod
+    def delete_scenario(cls, scenario_id): # deletes a scenario from the database by its ID
+        pass
