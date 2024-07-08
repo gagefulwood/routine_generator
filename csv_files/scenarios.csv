@@ -1,0 +1,101 @@
+scenario_id,name,aim_type,aim_subtype,is_projectile,is_movement,is_flick
+1,Scenario_911,Clicking,Other,True,False,True
+2,Scenario_304,Clicking,Other,False,True,False
+3,Scenario_240,Target Switching,Slow,True,True,False
+4,Scenario_103,Other,Smoothness,False,False,False
+5,Scenario_161,Target Switching,Fast,True,False,False
+6,Scenario_801,Other,Other,True,True,False
+7,Scenario_320,Target Switching,Slow,False,True,False
+8,Scenario_23,Tracking,Other,True,False,False
+9,Scenario_778,Target Switching,Fast,False,True,False
+10,Scenario_633,Tracking,Reactivity,True,False,False
+11,Scenario_911,Target Switching,Slow,False,True,False
+12,Scenario_941,Tracking,Other,True,False,False
+13,Scenario_234,Tracking,Smoothness,True,True,False
+14,Scenario_935,Target Switching,Fast,True,False,False
+15,Scenario_335,Clicking,Other,False,True,True
+16,Scenario_197,Clicking,Dynamic,True,False,True
+17,Scenario_98,Other,Dynamic,True,True,False
+18,Scenario_628,Other,Reactivity,False,True,False
+19,Scenario_963,Target Switching,Fast,True,False,False
+20,Scenario_911,Other,Both,False,True,False
+21,Scenario_73,Tracking,Reactivity,True,False,False
+22,Scenario_456,Tracking,Smoothness,False,True,False
+23,Scenario_113,Other,Fast,True,False,False
+24,Scenario_740,Clicking,Other,True,True,True
+25,Scenario_71,Tracking,Smoothness,False,True,False
+26,Scenario_612,Other,Both,True,False,False
+27,Scenario_591,Other,Reactivity,False,True,False
+28,Scenario_632,Tracking,Reactivity,True,False,False
+29,Scenario_424,Target Switching,Other,True,True,False
+30,Scenario_601,Other,Both,False,True,False
+31,Scenario_734,Tracking,Other,True,False,False
+32,Scenario_931,Tracking,Other,False,True,False
+33,Scenario_116,Target Switching,Fast,True,False,False
+34,Scenario_781,Target Switching,Fast,False,True,False
+35,Scenario_846,Target Switching,Fast,True,False,False
+36,Scenario_932,Tracking,Reactivity,False,True,False
+37,Scenario_18,Clicking,Dynamic,True,False,True
+38,Scenario_636,Target Switching,Other,False,True,False
+39,Scenario_184,Clicking,Static,True,False,True
+40,Scenario_987,Clicking,Static,False,True,True
+41,Scenario_353,Target Switching,Slow,True,False,False
+42,Scenario_399,Target Switching,Slow,False,True,False
+43,Scenario_152,Tracking,Smoothness,True,False,False
+44,Scenario_703,Tracking,Smoothness,False,True,False
+45,Scenario_620,Tracking,Other,True,False,False
+46,Scenario_710,Clicking,Dynamic,False,True,True
+47,Scenario_686,Tracking,Other,True,False,False
+48,Scenario_308,Target Switching,Slow,False,True,False
+49,Scenario_741,Clicking,Other,True,False,True
+50,Scenario_163,Other,Fast,False,True,False
+51,Scenario_104,Target Switching,Fast,True,False,False
+52,Scenario_707,Other,Both,False,True,False
+53,Scenario_948,Tracking,Other,True,False,False
+54,Scenario_742,Target Switching,Other,False,True,False
+55,Scenario_381,Other,Both,True,False,False
+56,Scenario_563,Clicking,Static,False,True,True
+57,Scenario_787,Target Switching,Other,True,False,False
+58,Scenario_202,Target Switching,Fast,False,True,False
+59,Scenario_406,Tracking,Smoothness,True,False,False
+60,Scenario_756,Tracking,Smoothness,False,True,False
+61,Scenario_281,Target Switching,Slow,True,False,False
+62,Scenario_859,Other,Both,False,True,False
+63,Scenario_27,Tracking,Other,True,False,False
+64,Scenario_402,Target Switching,Fast,False,True,False
+65,Scenario_520,Clicking,Other,True,False,True
+66,Scenario_808,Other,Smoothness,False,True,False
+67,Scenario_211,Tracking,Other,True,False,False
+68,Scenario_74,Target Switching,Slow,False,True,False
+69,Scenario_164,Clicking,Dynamic,True,False,True
+70,Scenario_243,Clicking,Static,False,True,True
+71,Scenario_297,Target Switching,Other,True,False,False
+72,Scenario_388,Other,Fast,False,True,False
+73,Scenario_214,Tracking,Smoothness,True,False,False
+74,Scenario_927,Clicking,Dynamic,False,True,True
+75,Scenario_204,Target Switching,Fast,True,False,False
+76,Scenario_129,Target Switching,Fast,False,True,False
+77,Scenario_85,Clicking,Static,True,False,True
+78,Scenario_314,Clicking,Static,False,True,True
+79,Scenario_276,Tracking,Smoothness,True,False,False
+80,Scenario_101,Tracking,Other,False,True,False
+81,Scenario_109,Clicking,Other,True,False,True
+82,Scenario_498,Other,Smoothness,False,True,False
+83,Scenario_325,Clicking,Other,True,False,True
+84,Scenario_393,Target Switching,Other,False,True,False
+85,Scenario_588,Clicking,Other,True,False,True
+86,Scenario_62,Clicking,Static,False,True,True
+87,Scenario_291,Clicking,Static,True,False,True
+88,Scenario_671,Tracking,Other,False,True,False
+89,Scenario_944,Other,Static,True,False,False
+90,Scenario_928,Clicking,Dynamic,False,True,True
+91,Scenario_866,Target Switching,Other,True,False,False
+92,Scenario_427,Other,Other,False,True,False
+93,Scenario_176,Clicking,Other,True,False,True
+94,Scenario_295,Target Switching,Fast,False,True,False
+95,Scenario_773,Other,Dynamic,True,False,False
+96,Scenario_927,Tracking,Other,False,True,False
+97,Scenario_120,Tracking,Reactivity,True,False,False
+98,Scenario_415,Target Switching,Slow,False,True,False
+99,Scenario_354,Tracking,Other,True,False,False
+100,Scenario_311,Target Switching,Fast,False,True,False

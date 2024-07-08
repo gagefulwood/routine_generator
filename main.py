@@ -13,12 +13,8 @@ class MainApp(tk.Tk):
         self.geometry("400x300")
         self.minsize(400,300)
 
-        #init models
-
-        #init views
-
         #init controllers
-        self.menu_controller = MenuController(self)
+        self.controllers = [ MenuController(self) ]
 
 if __name__ == "__main__":
     app = MainApp()

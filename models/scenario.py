@@ -34,20 +34,23 @@ class ScenarioModel:
         self.is_movement = is_movement
         self.is_flick = is_flick
 
-    @classmethod
-    def validate(cls, name, aim_type, aim_subtype, is_projectile, is_movement, is_flick):
+    def validate(scenario_id, name, aim_type, aim_subtype, is_projectile, is_movement, is_flick):
+        if not isinstance(scenario_id, int):
+            raise TypeError("scenario_id must be an integer")
+        if scenario_id < 0:
+            raise ValueError("scenario_id must be nonnegative")
         if not isinstance(name, str):
-            raise ValueError("name must be a string")
+            raise TypeError("name must be a string")
         if not isinstance(aim_type, AimType):
-            raise ValueError("aim_type must be an AimType enum member")
+            raise TypeError("aim_type must be an AimType enum member")
         if not isinstance(aim_subtype, AimSubType):
-            raise ValueError("aim_subtype must be an AimSubType enum member")
+            raise TypeError("aim_subtype must be an AimSubType enum member")
         if not isinstance(is_projectile, bool):
-            raise ValueError("is_projectile must be a boolean")
+            raise TypeError("is_projectile must be a boolean")
         if not isinstance(is_movement, bool):
-            raise ValueError("is_movement must be a boolean")
+            raise TypeError("is_movement must be a boolean")
         if not isinstance(is_flick, bool):
-            raise ValueError("is_flick must be a boolean")
+            raise TypeError("is_flick must be a boolean")
         if aim_subtype not in valid_subtypes.get(aim_type):
             raise ValueError(f"Invalid aim_subtype combination for {aim_type.name}")
         if is_flick and aim_type != AimType.CLICKING:
