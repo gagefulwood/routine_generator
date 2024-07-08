@@ -1,9 +1,6 @@
 from views.menu_view import MenuView
-from views.scenario_view import ScenarioView
 from controllers.scenario_controller import ScenarioController
-from views.playlist_view import PlaylistView
 from controllers.playlist_controller import PlaylistController
-from views.settings_view import SettingsView
 from controllers.settings_controller import SettingsController
 
 class MenuController:
