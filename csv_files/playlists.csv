@@ -1,101 +1,61 @@
-playlist_id,name,description,num_scenarios
-1,Aim Training Basics,A playlist focusing on fundamental aim training exercises.,5
-2,Advanced Aim Techniques,Challenges for improving precision and speed.,8
-3,Reflex Training,Exercises designed to enhance reaction times.,6
-4,Target Acquisition Mastery,Strategies and drills for quick target acquisition.,7
-5,Tracking Skills Development,Exercises to improve tracking moving targets.,4
-6,Sharpshooter Challenge,Test your accuracy with difficult scenarios.,10
-7,Speed and Accuracy Drills,Combines speed and precision exercises.,9
-8,Multi-Target Engagement,Practice engaging multiple targets efficiently.,7
-9,Dynamic Shooting Scenarios,Simulate real-world dynamic shooting situations.,6
-10,Quick Draw Exercises,Focus on fast draw and accurate shots.,5
-11,Precision Shooting Challenge,Accuracy-focused scenarios with precise targets.,8
-12,Agility and Precision Training,Improve agility while maintaining accuracy.,6
-13,Close-Quarters Combat,Practice aiming in close combat scenarios.,4
-14,Long Range Accuracy Tests,Challenges for long-distance shooting accuracy.,7
-15,Headshot Mastery,Drills for achieving consistent headshot accuracy.,5
-16,Target Transition Exercises,Practice switching between targets rapidly.,6
-17,Stress Test Scenarios,Simulate high-stress situations for aim training.,8
-18,Team Coordination Drills,Exercises for improving team aim coordination.,7
-19,Sniper Rifle Proficiency,Specialized training for sniper rifle handling.,5
-20,Pistol Accuracy Challenge,Focus on accuracy using pistols in various scenarios.,6
-21,Rapid Fire Techniques,Drills for improving rapid fire accuracy.,7
-22,Shotgun Handling Skills,Mastering aim and handling with shotguns.,5
-23,One Shot, One Kill,Precision exercises emphasizing single-shot kills.,8
-24,Speed Reload Practice,Exercises for quick and efficient weapon reloading.,6
-25,Combat Scenario Simulations,Realistic combat scenarios for comprehensive training.,10
-26,Target Priority Exercises,Drills focusing on prioritizing targets effectively.,9
-27,Advanced Movement Techniques,Combine movement with precise shooting.,7
-28,Target Identification Training,Practice identifying and engaging correct targets.,6
-29,Adaptive Shooting Skills,Training for adapting aim to changing situations.,5
-30,Accuracy Under Pressure,Tests for maintaining accuracy in stressful conditions.,8
-31,Team Defense Strategies,Coordinate aim for effective team defense.,7
-32,Scenario-Based Challenges,Various scenarios challenging aim and decision-making.,6
-33,Environmental Factors Training,Adjust aim for different environmental conditions.,4
-34,Marksmanship Proficiency,Comprehensive drills for overall marksmanship skills.,7
-35,Dynamic Cover Usage,Use cover effectively while maintaining accurate aim.,6
-36,Multi-Weapon Proficiency,Practice with multiple weapon types for versatile aim.,5
-37,Close Combat Maneuvers,Enhance aim in close combat situations.,8
-38,Speed Shooting Exercises,Focus on speed and accuracy in shooting.,9
-39,Target Distinction Drills,Practice distinguishing friend from foe targets.,7
-40,Sniper Nest Techniques,Mastering aim from concealed or elevated positions.,6
-41,Long Range Precision Tests,Challenges for precise shooting at long distances.,5
-42,Combat Movement Integration,Integrate movement with shooting techniques.,6
-43,Adaptive Target Acquisition,Train for quickly acquiring different types of targets.,8
-44,High-Speed Engagement,Exercises for rapid engagement of moving targets.,7
-45,Target Precision in Darkness,Challenges for aiming accurately in low light conditions.,6
-46,Reaction Time Optimization,Drills to improve reaction time for faster aiming.,5
-47,Team Tactics and Aim Coordination,Coordinate aim strategies in team scenarios.,8
-48,Unpredictable Target Scenarios,Exercises with random and unpredictable targets.,9
-49,Quick Decision Shooting,Tests for making quick and accurate shooting decisions.,7
-50,Close Quarters Precision,Accuracy drills tailored for close quarters engagements.,6
-51,Sniper Team Coordination,Coordinate aim and tactics in sniper team scenarios.,5
-52,Dynamic Urban Combat,Simulate urban combat scenarios for aiming practice.,8
-53,Vehicle-Based Engagement,Exercises for shooting from or at vehicles.,7
-54,Hostage Rescue Scenarios,Practice aim in high-pressure hostage rescue situations.,6
-55,Disoriented Target Engagement,Exercises with disoriented or moving targets.,5
-56,High-Stress Aim Tests,Test aim accuracy under high-stress conditions.,8
-57,Improvised Weapon Handling,Drills for handling and aiming with improvised weapons.,9
-58,Adaptation to Terrain,Adjust aim techniques for different terrain types.,7
-59,Target Obfuscation Training,Challenges involving obscured or hidden targets.,6
-60,Precision Shooting in Adverse Conditions,Maintain accuracy in adverse weather or visibility.,5
-61,Counter-Sniper Training,Exercises for engaging enemy snipers effectively.,8
-62,Combat Marksmanship Proficiency,Comprehensive drills for combat marksmanship skills.,7
-63,Stealth and Precision,Combine stealth with precise shooting techniques.,6
-64,Target Retention Drills,Practice maintaining aim on moving or evading targets.,5
-65,Speed and Accuracy under Suppression,Tests for shooting accuracy while under fire suppression.,8
-66,Urban Combat Maneuvers,Drills for precise shooting in urban combat environments.,9
-67,Jungle Warfare Marksmanship,Adapt aim for jungle warfare conditions.,7
-68,Close Quarter Marksmanship,Enhance aim for close quarter combat scenarios.,6
-69,Marksmanship in Low Visibility,Shooting drills in low light or obscured visibility.,5
-70,Advanced Hostage Situations,Practice precise shooting in hostage rescue scenarios.,8
-71,Quick Response Marksmanship,Tests for quick and accurate shooting responses.,7
-72,Target Priority in Chaos,Prioritize targets effectively in chaotic environments.,6
-73,Speed and Precision Integration,Integrate speed with precise shooting techniques.,5
-74,Adaptive Shooting in Dynamic Environments,Adjust aim for rapidly changing combat environments.,8
-75,Effective Cover Utilization,Master aim while effectively using cover.,9
-76,Target Identification in Crisis,Practice identifying targets in crisis situations.,7
-77,Long Range Target Elimination,Precision shooting for eliminating long range targets.,6
-78,Quick Aim and Shoot Techniques,Exercises for quick aim and shoot maneuvers.,5
-79,Target Acquisition under Duress,Acquire targets accurately under stressful conditions.,8
-80,Team Coordination in Combat,Coordinate aim and tactics in team combat scenarios.,7
-81,Dynamic Target Engagement,Exercises for engaging moving and dynamic targets.,6
-82,Low Light Precision,Challenge aim accuracy in low light or darkness.,5
-83,Suppressed Weapon Proficiency,Training for accuracy with suppressed weapons.,8
-84,Adaptable Target Engagement,Adapt aim for different types of targets.,9
-85,Rapid Response Marksmanship,Tests for rapid and accurate shooting responses.,7
-86,Complex Combat Maneuvers,Drills for precise shooting in complex combat situations.,6
-87,Stealth and Speed Integration,Combine stealth with fast and precise shooting.,5
-88,Target Identification in Urban Environments,Practice identifying targets in urban settings.,8
-89,Adaptive Shooting Strategies,Strategies for adapting aim to various combat scenarios.,7
-90,Effective Engagement Techniques,Master techniques for effective target engagement.,6
-91,Target Prioritization in Crisis,Effectively prioritize targets in crisis situations.,5
-92,Advanced Close Quarters Marksmanship,Master aim in advanced close quarters combat.,8
-93,Quick Aim and Fire Drills,Exercises for rapid aim and fire techniques.,9
-94,Adapting to Hostile Terrain,Adjust aim for shooting in hostile or challenging terrain.,7
-95,Team Dynamics in Marksmanship,Coordinate aim and tactics effectively in team settings.,6
-96,Dynamic Target Tracking,Practice tracking and engaging moving targets dynamically.,5
-97,Low Visibility Target Acquisition,Acquire targets accurately in low visibility conditions.,8
-98,Stealth and Precision in Combat,Combine stealth with precise shooting in combat.,7
-99,Adaptive Target Identification,Identify and engage diverse targets in different scenarios.,6
-100,Realistic Combat Engagement,Simulate realistic combat engagements for comprehensive training.,10
+playlist_id,name,description,num_scenarios,clicking_proportion,tracking_proportion,target_switching_proportion,other_proportion
+1,Aim Training Basics,A playlist focusing on fundamental aim training exercises.,5,0.3,0.3,0.2,0.2
+2,Advanced Aim Techniques,Challenges for improving precision and speed.,8,0.4,0.2,0.3,0.1
+3,Reflex Training,Exercises designed to enhance reaction times.,6,0.5,0.1,0.3,0.1
+4,Target Acquisition Mastery,Strategies and drills for quick target acquisition.,7,0.3,0.4,0.2,0.1
+5,Tracking Skills Development,Exercises to improve tracking moving targets.,4,0.2,0.6,0.1,0.1
+6,Sharpshooter Challenge,Test your accuracy with difficult scenarios.,10,0.4,0.2,0.3,0.1
+7,Speed and Accuracy Drills,Combines speed and precision exercises.,9,0.3,0.3,0.2,0.2
+8,Multi-Target Engagement,Practice engaging multiple targets efficiently.,7,0.2,0.4,0.3,0.1
+9,Dynamic Shooting Scenarios,Simulate real-world dynamic shooting situations.,6,0.3,0.3,0.3,0.1
+10,Quick Draw Exercises,Focus on fast draw and accurate shots.,5,0.4,0.1,0.4,0.1
+11,Precision Shooting Challenge,Accuracy-focused scenarios with precise targets.,8,0.5,0.2,0.2,0.1
+12,Agility and Precision Training,Improve agility while maintaining accuracy.,6,0.3,0.2,0.4,0.1
+13,Close-Quarters Combat,Practice aiming in close combat scenarios.,4,0.4,0.1,0.3,0.2
+14,Long Range Accuracy Tests,Challenges for long-distance shooting accuracy.,7,0.5,0.2,0.2,0.1
+15,Headshot Mastery,Drills for achieving consistent headshot accuracy.,5,0.5,0.1,0.3,0.1
+16,Target Transition Exercises,Practice switching between targets rapidly.,6,0.2,0.4,0.3,0.1
+17,Stress Test Scenarios,Simulate high-stress situations for aim training.,8,0.3,0.3,0.2,0.2
+18,Team Coordination Drills,Exercises for improving team aim coordination.,7,0.2,0.4,0.3,0.1
+19,Sniper Rifle Proficiency,Specialized training for sniper rifle handling.,5,0.4,0.1,0.3,0.2
+20,Pistol Accuracy Challenge,Focus on accuracy using pistols in various scenarios.,6,0.4,0.2,0.3,0.1
+21,Rapid Fire Techniques,Drills for improving rapid fire accuracy.,7,0.4,0.3,0.2,0.1
+22,Shotgun Handling Skills,Mastering aim and handling with shotguns.,5,0.4,0.2,0.3,0.1
+23,One Shot, One Kill,Precision exercises emphasizing single-shot kills.,8,0.5,0.2,0.2,0.1
+24,Speed Reload Practice,Exercises for quick and efficient weapon reloading.,6,0.3,0.3,0.2,0.2
+25,Combat Scenario Simulations,Realistic combat scenarios for comprehensive training.,10,0.2,0.4,0.2,0.2
+26,Target Priority Exercises,Drills focusing on prioritizing targets effectively.,9,0.3,0.3,0.3,0.1
+27,Advanced Movement Techniques,Combine movement with precise shooting.,7,0.3,0.3,0.2,0.2
+28,Target Identification Training,Practice identifying and engaging correct targets.,6,0.3,0.4,0.2,0.1
+29,Adaptive Shooting Skills,Training for adapting aim to changing situations.,5,0.3,0.3,0.3,0.1
+30,Accuracy Under Pressure,Tests for maintaining accuracy in stressful conditions.,8,0.4,0.2,0.3,0.1
+31,Team Defense Strategies,Coordinate aim for effective team defense.,7,0.2,0.4,0.3,0.1
+32,Scenario-Based Challenges,Various scenarios challenging aim and decision-making.,6,0.3,0.3,0.2,0.2
+33,Environmental Factors Training,Adjust aim for different environmental conditions.,4,0.2,0.4,0.2,0.2
+34,Marksmanship Proficiency,Comprehensive drills for overall marksmanship skills.,7,0.4,0.3,0.2,0.1
+35,Dynamic Cover Usage,Use cover effectively while maintaining accurate aim.,6,0.2,0.4,0.2,0.2
+36,Multi-Weapon Proficiency,Practice with multiple weapon types for versatile aim.,5,0.3,0.3,0.3,0.1
+37,Close Combat Maneuvers,Enhance aim in close combat situations.,8,0.4,0.2,0.3,0.1
+38,Speed Shooting Exercises,Focus on speed and accuracy in shooting.,9,0.4,0.3,0.2,0.1
+39,Target Distinction Drills,Practice distinguishing friend from foe targets.,7,0.3,0.3,0.3,0.1
+40,Sniper Nest Techniques,Mastering aim from concealed or elevated positions.,6,0.3,0.3,0.2,0.2
+41,Long Range Precision Tests,Challenges for precise shooting at long distances.,5,0.5,0.2,0.2,0.1
+42,Combat Movement Integration,Integrate movement with shooting techniques.,6,0.2,0.4,0.2,0.2
+43,Adaptive Target Acquisition,Train for quickly acquiring different types of targets.,8,0.3,0.3,0.3,0.1
+44,High-Speed Engagement,Exercises for rapid engagement of moving targets.,7,0.3,0.4,0.2,0.1
+45,Target Precision in Darkness,Challenges for aiming accurately in low light conditions.,6,0.4,0.2,0.3,0.1
+46,Reaction Time Optimization,Drills to improve reaction time for faster aiming.,5,0.5,0.1,0.3,0.1
+47,Team Tactics and Aim Coordination,Coordinate aim strategies in team scenarios.,8,0.3,0.3,0.3,0.1
+48,Unpredictable Target Scenarios,Exercises with random and unpredictable targets.,9,0.2,0.4,0.2,0.2
+49,Quick Decision Shooting,Tests for making quick and accurate shooting decisions.,7,0.3,0.3,0.3,0.1
+50,Close Quarters Precision,Accuracy drills tailored for close quarters engagements.,6,0.4,0.2,0.3,0.1
+51,Sniper Team Coordination,Coordinate aim and tactics in sniper team scenarios.,5,0.3,0.3,0.2,0.2
+52,Dynamic Urban Combat,Simulate urban combat scenarios for aiming practice.,8,0.3,0.4,0.2,0.1
+53,Vehicle-Based Engagement,Exercises for shooting from or at vehicles.,7,0.2,0.4,0.3,0.1
+54,Hostage Rescue Scenarios,Practice aim in high-pressure hostage rescue situations.,6,0.3,0.3,0.2,0.2
+55,Disoriented Target Engagement,Exercises with disoriented or moving targets.,5,0.3,0.3,0.2,0.2
+56,High-Stress Aim Tests,Test aim accuracy under high-stress conditions.,8,0.4,0.2,0.3,0.1
+57,Improvised Weapon Handling,Drills for handling and aiming with improvised weapons.,9,0.3,0.3,0.2,0.2
+58,Adaptation to Terrain,Adjust aim techniques for different terrain types.,7,0.2,0.4,0.3,0.1
+59,Target Obfuscation Training,Challenges involving obscured or hidden targets.,6,0.3,0.3,0.2,0.2
+60,Precision Shooting in Adverse Conditions,Maintain accuracy in adverse weather or visibility.,5,0.4,0.2,0.3,0.1

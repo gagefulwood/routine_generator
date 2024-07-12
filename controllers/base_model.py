@@ -3,7 +3,7 @@ from views.main_menu import MainMenuView
 from views.scenario_menu import ScenarioMenuView
 from views.playlist_menu import PlaylistMenuView
 
-class Controller(ABC):
+class BaseController(ABC):
     @abstractmethod
     def show_frame(self, view_name):
         if self.current_frame is not None:
