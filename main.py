@@ -1,5 +1,5 @@
 import tkinter as tk
-from controllers.menu import MenuController
+from controllers.menu_controller import MenuController
 
 '''
 create model instance

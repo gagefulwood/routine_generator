@@ -1,8 +1,8 @@
 from tkinter import ttk
-from views.main_menu import MainMenuView
-from views.scenario_menu import ScenarioMenuView
-from views.playlist_menu import PlaylistMenuView
-from controllers.base_model import BaseController
+from views.main_menu_view import MainMenuView
+from views.scenario_menu_view import ScenarioMenuView
+from views.playlist_menu_view import PlaylistMenuView
+from controllers.base_controller import BaseController
 
 class MenuController(BaseController):
     def __init__(self, root):

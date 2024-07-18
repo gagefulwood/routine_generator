@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from views.main_menu import MainMenuView
-from views.scenario_menu import ScenarioMenuView
-from views.playlist_menu import PlaylistMenuView
+from views.main_menu_view import MainMenuView
+from views.scenario_menu_view import ScenarioMenuView
+from views.playlist_menu_view import PlaylistMenuView
 
 class BaseController(ABC):
     @abstractmethod
